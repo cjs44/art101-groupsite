@@ -1,0 +1,285 @@
+/* CSS */
+
+body {
+  background-image: url('../img/trees.jpg');
+  background-size: cover;
+  width: 1920px;
+  height: 1080px;
+  background-size: 1920px 1080px; 
+  backdrop-filter: blur(5px);
+  /* min-width: 276px;*/
+}
+
+p {
+  margin: 10px;
+}
+
+h1 {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size: 300%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-block: 10px;
+}
+
+#content {
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  text-align: center;
+  width: 1920px;
+  width: auto;
+  box-sizing: content-box;
+  backdrop-filter: blur(5px);
+ 
+}
+
+/* Home Slug */
+
+.titleImage {
+
+  float: right;
+  margin-right: 80px;
+
+}
+
+#text {
+  width: 100px;
+  margin-top: -110px;
+  margin-right: 140px;
+  
+}
+
+#homeSlug {
+  width: 225px;
+  margin-top: -88px;
+  margin-right: 150px;
+
+}
+
+#endSlug {
+  width: 225px;
+  margin-top: -90px;
+
+}
+/* Button Formatting */
+
+.button {
+  margin-inline: 3 px;
+  /* Animation */
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #386a94;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+/* nav bar */
+
+#site-title {
+  position: absolute;
+  top: 0;
+  left: 30%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: transparent;
+  margin-top: -30px;
+}
+
+/*Instructions and buttons*/
+
+#buttons {
+  /* Highlight */
+  background-color: #386a94;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: 2px;
+  padding: 15px 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+
+  /* Animation */
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+#buttons:hover {
+  border-radius: 10px;
+}
+
+#instructions {
+  padding: 30px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#instList {
+  font-weight: bold;
+}
+
+#home {
+  padding: 30px;
+  text-align: center;
+  height: auto;
+}
+
+/*About*/
+#about {
+  padding: 30px;
+  text-align: center;
+}
+
+/*Location Titles*/
+.location {
+  text-align: center;
+}
+
+/*Slugs*/
+#slug1 {
+  width: 150px;
+  height: 150;
+}
+#slug2 {
+  width: 100px;
+  height: 100px;
+}
+#slug3 {
+  width: 200px;
+  height: 200px;
+}
+#slug4 {
+  width: 100px;
+  height: 100px;
+}
+#slug5 {
+  width: 100px;
+  height: 100px;
+}
+#slug6 {
+  width: 130px;
+  height: 130px;
+}
+#slug7 {
+  width: 200px;
+  height: 200px;
+}
+#slug8 {
+  width: 150px;
+  height: 150px;
+}
+#slug9 {
+  width: 120px;
+  height: 120px;
+}
+#slug10 {
+  width: 60px;
+  height: 60px;
+}
+
+/* Facts */
+#fact {
+  margin-block: 20px;
+}
+
+/* Hint Text */
+#hint-p {
+box-sizing: inherit;
+}
+
+/* tabs */
+.hidden {
+  display: none;
+}
+
+.tabbed-section {
+  max-width: 1500px;
+  max-height: 1000px;
+  margin: 0 auto;
+}
+
+.tab-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.tab {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #386a94;
+  color: rgb(255, 255, 255);
+}
+
+.tab-content {
+  background-color: #f5db84;
+  border: 10px solid #FFBF00;
+  padding: 0px;
+}
+
+.tab-pane {
+  display: none;
+  min-height: 10px;
+}
+
+.tab-pane.active {
+  display: block;
+  min-height: 10px;
+}
+
+canvas {
+  display: block;
+  top: 400;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 1300px;
+  min-width: 1800px;
+ 
+  position: absolute;
+}
+
+.random-slug-fact {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px; 
+  font-weight: bolder;
+  color: navy;
+}
+
+.fact-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slugbig {
+  max-width: 500px;
+  max-height: 500px;
+}
